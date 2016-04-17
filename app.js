@@ -7,7 +7,7 @@ var express = require("express"),
 	session = require("express-session"),
 	flash = require("connect-flash"),
 	multer = require("multer"),
-	upload = require({dest: './public/images/portfolio'});
+	upload = multer({dest: './public/images/portfolio'});
 
 //Route files
 var routes = require("./routes/index"),
