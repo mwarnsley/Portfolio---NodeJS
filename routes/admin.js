@@ -2,7 +2,7 @@ var express = require("express"),
 	router = express.Router(),
 	multer = require('multer'),
 	upload = multer({dest: './public/images/portfolio'}),
-	mysql = require('mysql');,
+	mysql = require('mysql');
 	connection = mysql.createConnection({
 		host: "localhost",
 		user: "root",
