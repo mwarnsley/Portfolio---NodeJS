@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Simple portfolio made with NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwarnsley/Portfolio---NodeJS.git"
+  },
+  "author": "Marcus Warnsley",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-validator": "*",
+    "express-handlebars": "*",
+    "connect-flash": "*",
+    "express-session": "*",
+    "moment": "*",
+    "multer": "*",
+    "mysql": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/mwarnsley/Portfolio---NodeJS/issues"
+  },
+  "homepage": "https://github.com/mwarnsley/Portfolio---NodeJS#readme"
+}
